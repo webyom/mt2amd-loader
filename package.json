@@ -1,0 +1,23 @@
+{
+  "name": "mt2amd-loader",
+  "version": "1.0.0",
+  "description": "mt2amd loader module for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webyom/mt2amd-loader.git"
+  },
+  "author": "Gary Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webyom/mt2amd-loader/issues"
+  },
+  "homepage": "https://github.com/webyom/mt2amd-loader#readme",
+  "dependencies": {
+    "gulp-mt2amd": "^0.3.3",
+    "gulp-util": "^2.2.19"
+  }
+}
