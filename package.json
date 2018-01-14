@@ -1,6 +1,6 @@
 {
   "name": "mt2amd-loader",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "mt2amd loader module for webpack",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/webyom/mt2amd-loader#readme",
   "dependencies": {
-    "gulp-mt2amd": "^0.7.0",
+    "gulp-mt2amd": "^1.0.0",
     "gulp-util": "^2.2.19"
   }
 }
