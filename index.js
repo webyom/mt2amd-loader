@@ -1,9 +1,9 @@
-var gutil = require('gulp-util');
+var Vinyl = require('vinyl');
 var mt2amd = require('gulp-mt2amd');
 
 module.exports = function (content) {
   var callback = this.async();
-  var file = new gutil.File({
+  var file = new Vinyl({
     base: this.context,
     cwd: process.cwd(),
     path: this.request.split('!').pop(),
